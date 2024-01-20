@@ -17,4 +17,4 @@ User teacher = new Teacher().
 4. **Принцип разделения интерфейса** - создавайте узкоспециализированные интерфейсы. 
 Интерфейс [UserView](https://github.com/AlekseyVahonin/homework-oop/blob/main/homework04/view/UserView.java) используется лишь для вывода списка наследников User.
 5. **Принцип инверсии зависимостей** - модули верхних уровней не должны зависеть от модулей нижних уровней. Оба типа модулей должны зависеть от абстракций. 
-В классе [TeacherController]() реализация методов добавления, поиска и вывода на экран списка учителей зависит от интерфейсов UserService и UserView.
+В классе [TeacherController](https://github.com/AlekseyVahonin/homework-oop/blob/main/homework04/controller/TeacherController.java) реализация методов добавления, поиска и вывода на экран списка учителей зависит от интерфейсов UserService и UserView.
