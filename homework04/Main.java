@@ -2,6 +2,7 @@ package homework04;
 
 import homework04.controller.TeacherController;
 import homework04.data.Teacher;
+import homework04.data.User;
 import homework04.service.TeacherService;
 import homework04.view.TeacherView;
 

@@ -6,6 +6,13 @@ import homework04.view.TeacherView;
 
 import java.util.List;
 
+/*
+5. Принцип инверсии зависимостей модули верхних уровней не должны зависеть от модулей нижних уровней.
+Оба типа модулей должны зависеть от абстракций.
+В классе TeacherController реализация методов добавления, поиска и вывода на экран списка учителей
+зависит от интерфейсов UserService и UserView.
+ */
+
 // Обработка пользовательских действий и взаимодействие с другими классами
 public class TeacherController {
     private final TeacherService teacherService;

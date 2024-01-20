@@ -1,5 +1,11 @@
 package homework04.data;
 
+/*
+1. Принцип единой ответственности. Гласит что класс должен решать 1 задачу.
+В данном классе решается 2 задачи:
+1. Возврат строки - метод toString
+2. Создание объекта в конструкторе и манипулирование данными в getter, setter.
+ */
 public class Teacher extends User{
     private String schoolSubject;
     private int idTeacher;
