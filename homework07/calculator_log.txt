@@ -1,0 +1,4 @@
+янв. 27, 2024 5:03:09 PM homework07.model.FileLogger log
+WARNING: Нет такой операции
+янв. 27, 2024 5:03:09 PM homework07.model.FileLogger log
+SEVERE: Ошибка вычисления: Cannot invoke "String.hashCode()" because "<local5>" is null
